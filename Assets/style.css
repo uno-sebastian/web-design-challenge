@@ -1,5 +1,11 @@
+:root {
+	--green: #4aaaa5;
+	--gray: #ededed;
+	--white: #ffffff;
+}
+
 body {
-	background-color: #ededed;
+	background-color: var(--gray);
 }
 
 .navbar {
@@ -8,13 +14,14 @@ body {
 }
 
 .navbar-light .navbar-brand {
-	color: white;
+	color: var(--white);
 }
 
 .navbar-brand {
-	background-color: #4aaaa5;
+	background-color: var(--green);
 	padding: 10px;
 	margin-left: 10px;
+	font-weight: bolder;
 }
 
 .nav-item {
@@ -30,5 +37,27 @@ main>.container {
 }
 
 .footer {
-	background-color: #4aaaa5;
+	background-color: var(--green);
+}
+
+.main-image {
+	width: 35%;
+	float: left;
+}
+
+.container {
+	padding: 20px;
+}
+
+.sub-container {
+	background-color: var(--white);
+}
+
+.flex-shrink-0 {
+	margin-top: 20px;
+}
+
+.col-sm {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
