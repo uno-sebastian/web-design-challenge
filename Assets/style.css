@@ -1,0 +1,34 @@
+body {
+	background-color: #ededed;
+}
+
+.navbar {
+	padding: 0;
+	width: 100%;
+}
+
+.navbar-light .navbar-brand {
+	color: white;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.nav-item {
+	margin-right: 10px;
+}
+
+.navbar-collapse {
+	margin-right: 10px;
+}
+
+main>.container {
+	padding: 60px 15px 0;
+}
+
+.footer {
+	background-color: #4aaaa5;
+}
