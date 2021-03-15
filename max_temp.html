@@ -5,7 +5,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="description" content="">
+  <meta name="description" content="Latitude vs Max Temperature">
   <meta name="author" content="Sebastian Echeverry">
 
   <!-- Responsive meta tag -->
@@ -19,7 +19,7 @@
   <link href="Assets/style.css" rel="stylesheet">
 
   <!-- Page Title -->
-  <title>Weather Data</title>
+  <title>Max Temperature</title>
 
 </head>
 
@@ -64,21 +64,13 @@
       <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12 ">
           <div class="container">
-            <h1>Summary: Latitude vs. X</h1>
+            <h1>Max Temperature</h1>
             <hr>
-            <a href="max_temp.html"><img src="Assets/images/Fig1.png" class="main-image"
-                alt="Latitude vs Max Temperature"></a>
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-              accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-              500
-              cities.</p>
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs, latitude.
-              Factor
-              we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source
-              data
-              and visualizations created as part of the analysis, as well as explanations and descriptions of any trends
-              and
-              correlations witnessed.</p>
+            <img src="Assets/images/Fig1.png" class="img-fluid" alt="Latitude vs Max Temperature">
+            <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).
+              More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the
+              year than the northern
+              hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
           </div>
         </div>
 
@@ -90,11 +82,12 @@
             <hr>
             <div class="container">
               <div class="row visualizations-row">
-
+                <span class="border border-primary">
                 <div class="col">
                   <a href="max_temp.html"> <img src="Assets/images/Fig1.png" class="img-fluid"
                       alt="Latitude vs Max Temperature"> </a>
                 </div>
+                </span>
 
                 <div class="col">
                   <a href="humidity.html"> <img src="Assets/images/Fig2.png" class="img-fluid"
@@ -104,7 +97,7 @@
 
                 <div class="col">
                   <a href="cloudiness.html"> <img src="Assets/images/Fig3.png" class="img-fluid"
-                      alt="Latitude vs Temperature"> </a>
+                      alt="Latitude vs Cloudiness"> </a>
 
                 </div>
                 <div class="col">
