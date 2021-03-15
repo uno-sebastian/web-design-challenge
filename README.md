@@ -1,4 +1,4 @@
-# Sebastian's Web Design Challenge - Web Visualization Dashboard (Latitude)
+# [Sebastian's Web Design Challenge - Web Visualization Dashboard (Latitude)](https://unosebastian.github.io/web-design-challenge/)
 
 ## Background
 
