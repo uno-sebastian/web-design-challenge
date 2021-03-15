@@ -12,14 +12,14 @@ body {
 
 h1 {
 	color: var(--green);
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bolder;
 	padding: 5px;
 }
 
 h2 {
 	color: var(--green);
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: bolder;
 	padding: 5px;
 }
@@ -67,6 +67,16 @@ main>.container {
 	grid-template-columns: repeat(2, 1fr);
 }
 
+.comparison-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.col>h2 {
+	padding-top: 25px;
+	text-align: center;
+}
+
 .border-primary {
 	border-width:2px !important;
 	border-color: var(--green) !important;
@@ -100,5 +110,10 @@ main>.container {
 	}
 	.visualizations-row {
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.comparison-row {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
