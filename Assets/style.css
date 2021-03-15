@@ -6,10 +6,27 @@
 
 body {
 	background-color: var(--gray);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+	color: var(--green);
+	font-size: 2em;
+	font-weight: bolder;
+	padding: 5px;
+}
+
+h2 {
+	color: var(--green);
+	font-size: 1.5em;
+	font-weight: bolder;
+	padding: 5px;
 }
 
 .navbar {
 	padding: 0;
+	background-color: var(--white);
 	width: 100%;
 }
 
@@ -22,14 +39,6 @@ body {
 	padding: 10px;
 	margin-left: 10px;
 	font-weight: bolder;
-}
-
-.nav-item {
-	margin-right: 10px;
-}
-
-.navbar-collapse {
-	margin-right: 10px;
 }
 
 main>.container {
@@ -49,15 +58,42 @@ main>.container {
 	padding: 20px;
 }
 
-.sub-container {
+.col-sm-12>.container {
 	background-color: var(--white);
 }
 
-.flex-shrink-0 {
-	margin-top: 20px;
+.visualizations-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.col-sm {
-	padding-top: 10px;
-	padding-bottom: 10px;
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: var(--white);
+	}
+	.navbar {
+		background-color: var(--green);
+	}
+	/* First level buttons on the nav bar */
+	.nav-link {
+		background-color: var(--white);
+		text-indent: 20px;
+	}
+	/* The toggle button */
+	.dropdown-toggle {
+		background-color: var(--gray);
+	}
+	/* Second level buttons on the nav bar */
+	.dropdown-item {
+		background-color: var(--white);
+	}
+	/* part of the background to the 2nd level buttons*/
+	.show {
+		background-color: var(--white);
+	}
+	.visualizations-row {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }

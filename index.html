@@ -27,7 +27,7 @@
 
   <header>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
       <a class="navbar-brand" href="index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,13 +59,15 @@
 
   <!-- Begin page content -->
   <main role="main" class="flex-shrink-0">
+    <hr>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12 ">
-          <div class="container sub-container">
+          <div class="container">
             <h1>Summary: Latitude vs. X</h1>
             <hr>
-            <a href="max_temp.html"><img src="Assets/images/Fig1.png" class="main-image" alt="Latitude vs Max Temperature"></a>
+            <a href="max_temp.html"><img src="Assets/images/Fig1.png" class="main-image"
+                alt="Latitude vs Max Temperature"></a>
             <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
               accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
               500
@@ -82,33 +84,34 @@
 
         <div class="h-100"></div>
 
-        <div class="col-lg-4 col-md-4 col-sm-12 ">
-          <div class="container sub-container">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="container">
             <h2>Visualizations</h2>
             <hr>
             <div class="container">
-              <div class="row">
-                <div class="col-sm">
+              <div class="row visualizations-row">
+
+                <div class="col">
                   <a href="max_temp.html"> <img src="Assets/images/Fig1.png" class="img-fluid"
                       alt="Latitude vs Max Temperature"> </a>
                 </div>
-                <div class="col-sm">
+
+                <div class="col">
                   <a href="humidity.html"> <img src="Assets/images/Fig2.png" class="img-fluid"
                       alt="Latitude vs Humidity">
                   </a>
                 </div>
 
-                <!-- Force next columns to break to new line -->
-                <div class="w-100"></div>
-
-                <div class="col-sm">
+                <div class="col">
                   <a href="cloudiness.html"> <img src="Assets/images/Fig3.png" class="img-fluid"
                       alt="Latitude vs Temperature"> </a>
+
                 </div>
-                <div class="col-sm">
+                <div class="col">
                   <a href="wind_speed.html"> <img src="Assets/images/Fig4.png" class="img-fluid"
                       alt="Latitude vs Wind Speed"> </a>
                 </div>
+
               </div>
             </div>
           </div>
